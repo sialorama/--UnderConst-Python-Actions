@@ -1,4 +1,4 @@
-name: Python application
+name: Python - Test, Build and Deploy
 
 on:
   push:
@@ -10,8 +10,8 @@ permissions:
   contents: read
 
 jobs:
-  build:
-
+  build_and_push:
+    name: Build and Push
     runs-on: ubuntu-latest
 
     steps:
