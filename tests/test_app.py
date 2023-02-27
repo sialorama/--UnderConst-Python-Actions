@@ -1,5 +1,6 @@
 from app import index
-   
+import os
+
 def set_action_output(output_name, value) :
     """Sets the GitHub Action output.
 
